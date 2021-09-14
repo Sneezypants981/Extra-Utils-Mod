@@ -1,0 +1,17 @@
+{
+  "_fv": 24,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "7aa30c0658b18c60becc10a3563360b9",
+    "name": "Music Disc",
+    "description": "Captainsparklez and TryHardNinja - Revenge",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "music": {
+      "value": "CUSTOM:revenge"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

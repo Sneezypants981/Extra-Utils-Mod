@@ -1,0 +1,29 @@
+{
+  "omen": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "extra_utilities_mod:minecraft_ust_-_omen_music_disc_concept",
+        "stream": true
+      }
+    ]
+  },
+  "revenge": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "extra_utilities_mod:revenge_-_a_minecraft_parody_of_ushers_dj_got_us_fallin_in_love_music_video",
+        "stream": false
+      }
+    ]
+  },
+  "interstellarremix": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "extra_utilities_mod:melodic_dubstep_hans_zimmer_-_interstellar_abandoned_remix",
+        "stream": true
+      }
+    ]
+  }
+}

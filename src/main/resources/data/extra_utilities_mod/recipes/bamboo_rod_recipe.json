@@ -1,0 +1,30 @@
+{
+  "group": "extra_utilities_mod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    " 45",
+    " 78"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:iron_nugget"
+    },
+    "4": {
+      "item": "minecraft:bamboo"
+    },
+    "5": {
+      "item": "minecraft:leather"
+    },
+    "7": {
+      "item": "minecraft:leather"
+    },
+    "8": {
+      "item": "minecraft:bamboo"
+    }
+  },
+  "result": {
+    "item": "extra_utilities_mod:bamboo_rod",
+    "count": 1
+  }
+}

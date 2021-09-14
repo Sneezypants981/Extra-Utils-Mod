@@ -1,0 +1,264 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "BambooRod",
+      "type": "tool",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bamboo_rod"
+    },
+    {
+      "name": "BambooRodRecipe",
+      "type": "recipe",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bamboo_rod_recipe"
+    },
+    {
+      "name": "MolotovBulletHitsBlock",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "molotov_bullet_hits_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MolotovBulletHitsPlayer",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "molotov_bullet_hits_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MolotovBulletHitsLivingEntity",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "molotov_bullet_hits_living_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Molotov",
+      "type": "rangeditem",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "molotov"
+    },
+    {
+      "name": "MolotovRecipe",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "molotov_recipe"
+    },
+    {
+      "name": "JungleLootChest1",
+      "type": "structure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "jungle_loot_chest_1"
+    },
+    {
+      "name": "Omen",
+      "type": "musicdisc",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "omen"
+    },
+    {
+      "name": "OmenRecipe",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "omen_recipe"
+    },
+    {
+      "name": "Revenge",
+      "type": "musicdisc",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "revenge"
+    },
+    {
+      "name": "RevengeRecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "revenge_recipe"
+    },
+    {
+      "name": "BambooWarrior",
+      "type": "livingentity",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bamboo_warrior"
+    },
+    {
+      "name": "InterstellarRemix",
+      "type": "musicdisc",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "interstellar_remix"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "Jungle_Loot_Chest_1",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    }
+  ],
+  "sound_elements": [
+    {
+      "name": "omen",
+      "files": [
+        "minecraft_ust_-_omen_music_disc_concept"
+      ],
+      "category": "music",
+      "subtitle": ""
+    },
+    {
+      "name": "revenge",
+      "files": [
+        "revenge_-_a_minecraft_parody_of_ushers_dj_got_us_fallin_in_love_music_video"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "interstellarremix",
+      "files": [
+        "melodic_dubstep_hans_zimmer_-_interstellar_abandoned_remix"
+      ],
+      "category": "music",
+      "subtitle": ""
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "item.extra_utilities_mod.molotov": "Molotov",
+      "item.extra_utilities_mod.interstellar_remix.desc": "Hans Zimmer - Interstellar (Abandoned Remix)",
+      "item.extra_utilities_mod.bamboo_rod": "Bamboo Rod",
+      "item.extra_utilities_mod.bamboo_warrior_spawn_egg": "Bamboo Warrior Spawn Egg",
+      "subtitles.omen": "",
+      "item.extra_utilities_mod.omen": "Music Disc",
+      "item.extra_utilities_mod.revenge.desc": "Captainsparklez and TryHardNinja - Revenge",
+      "item.extra_utilities_mod.interstellar_remix": "Interstellar Remix",
+      "item.extra_utilities_mod.omen.desc": "Naps The Block - Omen",
+      "entity.extra_utilities_mod.bamboo_warrior": "Bamboo Warrior",
+      "subtitles.interstellarremix": "",
+      "subtitles.revenge": "",
+      "item.extra_utilities_mod.revenge": "Music Disc"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "extra_utilities_mod",
+    "modName": "Extra Utilities Mod",
+    "version": "1.0.0",
+    "author": "TC, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "modElementsPackage": "net.mcreator.extrautilitiesmod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100236710
+}

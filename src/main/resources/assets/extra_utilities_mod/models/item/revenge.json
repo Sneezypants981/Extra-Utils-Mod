@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "extra_utilities_mod:items/7aa30c0658b18c60becc10a3563360b9"
+  }
+}

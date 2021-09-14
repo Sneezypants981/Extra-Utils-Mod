@@ -1,0 +1,17 @@
+{
+  "_fv": 24,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "7mwi7y7h7an61",
+    "name": "Music Disc",
+    "description": "Naps The Block - Omen",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "music": {
+      "value": "CUSTOM:omen"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

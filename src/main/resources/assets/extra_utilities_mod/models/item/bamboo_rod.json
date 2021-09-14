@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "extra_utilities_mod:items/bamboo_rod_test_2"
+  }
+}

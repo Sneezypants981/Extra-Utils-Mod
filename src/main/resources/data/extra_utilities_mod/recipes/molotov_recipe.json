@@ -1,0 +1,42 @@
+{
+  "group": "extra_utilities_mod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:green_stained_glass"
+    },
+    "1": {
+      "item": "minecraft:green_stained_glass"
+    },
+    "2": {
+      "item": "minecraft:green_stained_glass"
+    },
+    "3": {
+      "item": "minecraft:green_stained_glass"
+    },
+    "4": {
+      "item": "minecraft:gunpowder"
+    },
+    "5": {
+      "item": "minecraft:green_stained_glass"
+    },
+    "6": {
+      "item": "minecraft:green_stained_glass"
+    },
+    "7": {
+      "item": "minecraft:green_stained_glass"
+    },
+    "8": {
+      "item": "minecraft:green_stained_glass"
+    }
+  },
+  "result": {
+    "item": "extra_utilities_mod:molotov",
+    "count": 1
+  }
+}
